@@ -1,0 +1,13 @@
+secrets/
+accountid.py
+__pycache__
+.DS_Store
+create-cluster-existing-vpc.yaml
+.terraform
+.terraform.lock.hcl
+terraform.tfstate*
+.hcl
+.tfstate
+.backup
+*.tfvars
+.tfplan
