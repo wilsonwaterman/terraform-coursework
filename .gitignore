@@ -11,3 +11,6 @@ terraform.tfstate*
 .backup
 *.tfvars
 .tfplan
+*.pub
+*.ppk
+mykey
