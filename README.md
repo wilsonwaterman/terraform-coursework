@@ -21,3 +21,9 @@
 - Send private ip to a text file using local-exec provisioner command
 - Use output block to share public IP in terminal
 - Key pair block not used, but can be added if you wanted to access the instance
+
+### demo-4: Terraform remote state
+- Re-use the setup from demo-3, store the state file in s3
+- s3 config is defined in backend.tf
+- Benefit is the source-of-truth for the state is stored remotely, not locally.
+- Variables are not allowed in backend.tf config
