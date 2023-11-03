@@ -27,3 +27,8 @@
 - s3 config is defined in backend.tf
 - Benefit is the source-of-truth for the state is stored remotely, not locally.
 - Variables are not allowed in backend.tf config
+
+### demo-5: Data Sources
+- Use data block to pull AWS CIDR block data and apply it when creating a security group
+- Useful for managing dynamic data in your infrastructure
+- Using terraform apply will execute the data block again and apply changes to the security group
