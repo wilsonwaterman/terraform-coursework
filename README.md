@@ -32,3 +32,8 @@
 - Use data block to pull AWS CIDR block data and apply it when creating a security group
 - Useful for managing dynamic data in your infrastructure
 - Using terraform apply will execute the data block again and apply changes to the security group
+
+### demo-6: Modules
+- Modules are effectively templates you can reference. Like interfaces
+- If module is referenced, need to run terraform get first to fetch it
+- Definition has compiler error. Need to troubleshoot
