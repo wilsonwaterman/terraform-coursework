@@ -36,4 +36,4 @@
 ### demo-6: Modules
 - Modules are effectively templates you can reference. Like interfaces
 - If module is referenced, need to run terraform get first to fetch it
-- Definition has compiler error. Need to troubleshoot
+- Compiles but fails at the bootstrap step. I think more commands are required for the remote-exec to run out of the module
