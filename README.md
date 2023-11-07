@@ -2,6 +2,8 @@
 - Notes and examples from Edward Viaene's course on UDEMY
 - Course: https://www.udemy.com/course/learn-devops-infrastructure-automation-with-terraform/learn/lecture/5853788?start=0#overview
 
+## Terraform Basics
+
 ### demo-1: Variables
 - Create an EC2 Instance
 - Splitting provider, instance info, variables, and secrets into separate files and have them reference each other
@@ -37,3 +39,9 @@
 - Modules are effectively templates you can reference. Like interfaces
 - If module is referenced, need to run terraform get first to fetch it
 - Compiles but fails at the bootstrap step. I think more commands are required for the remote-exec to run out of the module
+
+## Terraform with AWS
+
+### demo-7: VPCs and NAT
+- Full scale VPC, public and private subnets IGW and table mapping
+- NAT gateway setup is there to demo granting internet access to the private subnets and resources for updates, etc
