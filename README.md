@@ -60,3 +60,9 @@
 - Scripts include an init and a shell, designed installs lvm2 and docker, and mounts the volume
 - Useful for disc management and persistence
 - Script includes checked not to override data or config if a disc with data already exists, mounted to the instance
+
+### demo-11: Route53
+- Demo of resource blocks used to create domain listings in Route 53
+- MX records are for mail domains, they can be configured to point to any mail service (ie: gmail)
+- Demo not executed as Wilson does not own any of the domains listed (route53.tf is not committed to Wilson's repo)
+
