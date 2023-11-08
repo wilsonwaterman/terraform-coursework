@@ -54,3 +54,9 @@
 - Similar to demo-8 but includes an EBS volume resource block in the instance file
 - Requires volume and attachment blocks
 - Demo included quick steps for mounting volume to EC2 and saving that config. Good to know
+
+### demo-10: Userdata
+- Use user_data parameter within the instance resource block to execute scripts provided by "user"
+- Scripts include an init and a shell, designed installs lvm2 and docker, and mounts the volume
+- Useful for disc management and persistence
+- Script includes checked not to override data or config if a disc with data already exists, mounted to the instance
