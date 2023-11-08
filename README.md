@@ -49,3 +49,8 @@
 ### demo-8: Launch EC2 into a VPC
 - Like demo-7 but adding an instance, security group, and key pairs
 - Instance file includes properties to define which subnet the instance will be placed in and which sg(s) will be applied
+
+### demo-9: EBS Volumes
+- Similar to demo-8 but includes an EBS volume resource block in the instance file
+- Requires volume and attachment blocks
+- Demo included quick steps for mounting volume to EC2 and saving that config. Good to know
