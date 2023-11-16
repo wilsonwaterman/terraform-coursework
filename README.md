@@ -86,3 +86,7 @@
 - Bucket name needed updating in iam.tf, wasn't a variable
 - Test is to run an aws cp copy from the instance to s3
 
+### demo-15: Autoscaling
+- Configures autoscaling group around EC2 instances
+- Subscription to the SNS topic must be done in the AWS console
+- Parameters can be added to specifiy which instances will be destroyed on scaledown, otherwise AWS will do is automatically
