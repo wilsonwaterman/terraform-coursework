@@ -75,3 +75,14 @@
 ### demo-13: IAM users and groups
 - Creating IAM users and groups
 - Passwords included in the config will appear in plain text in the resulting tfstate file. Reccomended to apply the password via the AWS CLI or console after creation.
+- Careful that on destroy, terraform removes the admin role from ALL groups that have it (so my CLI group lost this during this demo by mistake)
+
+### demo-14: IAM Roles
+- Creating roles that can be applied to instances in AWS
+- Make sure AWSCLI role tied to terraform CLI has permission to create roles
+- Update bucket name to be more unique, demo already exists
+- Run apt-get update before any installs
+- python2 is used for this demo, but it can be bypassed using prompts and apt-get for installs instead
+- Bucket name needed updating in iam.tf, wasn't a variable
+- Test is to run an aws cp copy from the instance to s3
+
