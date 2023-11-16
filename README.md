@@ -66,3 +66,8 @@
 - MX records are for mail domains, they can be configured to point to any mail service (ie: gmail)
 - Demo not executed as Wilson does not own any of the domains listed (route53.tf is not committed to Wilson's repo)
 
+### demo-12: RDS
+- Launching an RDS resource from scratch
+- RDS requires subnet and parameter group, this will be launched in a custom VPC
+- Output.tf file included for easy finding of new public IPs, for demo purposes
+- RDS password variable blank in config, so pass it inline on apply
