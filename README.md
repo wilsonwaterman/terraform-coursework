@@ -95,3 +95,7 @@
 - Very similar to demo-15, only that the ELB will healthcheck instead of the ASG
 - userdata param in the ASG tf file executes an inline script to install nginx on the instance upon creation
 
+### demo-17: Elastic Beanstalk
+- Bigger demo, running a PHP app that connects to RDS (mariaDB)
+- nat gw and private RT added to the standard VPC file
+
