@@ -71,3 +71,7 @@
 - RDS requires subnet and parameter group, this will be launched in a custom VPC
 - Output.tf file included for easy finding of new public IPs, for demo purposes
 - RDS password variable blank in config, so pass it inline on apply
+
+### demo-13: IAM users and groups
+- Creating IAM users and groups
+- Passwords included in the config will appear in plain text in the resulting tfstate file. Reccomended to apply the password via the AWS CLI or console after creation.
