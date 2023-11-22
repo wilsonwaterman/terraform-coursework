@@ -114,3 +114,7 @@
 - Build your own modules, then reference them in different environment folders (dev,prod,etc)
 - This is an important demo to reference for structure purposes
 - Run your init in the environment folder
+
+### State Manipulation Demo
+- Using state commands to show and manipulate state of env
+- Best use case is to edit infrastructure without destroying/recreating (like renaming a parameter or changing a version)
