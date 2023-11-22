@@ -106,3 +106,6 @@
 - Notice how the files are reduced by Interpolation and Conditionals, more logic for creating specific environments in line with only one run of the apply
 - When using module make sure to check the version, because the tutorial is old
 - passing DEV as a variable inline would create the dev VPC. Prod is default
+
+### For Demo and For Demo 2
+- Using loops to manipulate data input on apply
