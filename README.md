@@ -109,3 +109,8 @@
 
 ### Looping Demos
 - Using loops to manipulate data input on apply
+
+### demo-18b: Project Structure
+- Build your own modules, then reference them in different environment folders (dev,prod,etc)
+- This is an important demo to reference for structure purposes
+- Run your init in the environment folder
