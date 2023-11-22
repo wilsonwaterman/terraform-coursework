@@ -99,3 +99,10 @@
 - Bigger demo, running a PHP app that connects to RDS (mariaDB)
 - nat gw and private RT added to the standard VPC file
 
+## Advanced Terraform
+
+### demo-18: Interpolation and Conditionals
+- Using a VPC module instead of custom hardcoded from scratch like in prior demos
+- Notice how the files are reduced by Interpolation and Conditionals, more logic for creating specific environments in line with only one run of the apply
+- When using module make sure to check the version, because the tutorial is old
+- passing DEV as a variable inline would create the dev VPC. Prod is default
