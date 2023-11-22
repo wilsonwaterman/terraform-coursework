@@ -107,5 +107,5 @@
 - When using module make sure to check the version, because the tutorial is old
 - passing DEV as a variable inline would create the dev VPC. Prod is default
 
-### For Demo and For Demo 2
+### Looping Demos
 - Using loops to manipulate data input on apply
