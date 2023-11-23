@@ -126,3 +126,9 @@
 - Packer and shell commands used to pull AMI information from the json file for use with terraform
 - Packer chokes on the first command in the demo, need to debug later
 
+### Terraform with Packer and Jenkins
+- Creates a VPC, an instance for Jenkins, and volume.
+- Jenkins machine will be used to build another instance via terraform and CICD
+- Remember to update versions in vars.tf
+- Need to solve Jenkins failed install problem
+
