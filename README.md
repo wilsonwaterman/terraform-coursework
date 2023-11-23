@@ -113,9 +113,16 @@
 ### demo-18b: Project Structure
 - Build your own modules, then reference them in different environment folders (dev,prod,etc)
 - This is an important demo to reference for structure purposes
-- Run your init in the environment folder
+- Run your init in the environment folder(s)
 
 ### State Manipulation Demo
 - Using state commands to show and manipulate state of env
 - Best use case is to edit infrastructure without destroying/recreating (like renaming a parameter or changing a version)
+
+## Packer
+
+### Packer with Terraform
+- Executes terraform commands and installs required software using a packer sh script
+- Packer and shell commands used to pull AMI information from the json file for use with terraform
+- Packer chokes on the first command in the demo, need to debug later
 
