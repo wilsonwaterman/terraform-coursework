@@ -132,3 +132,9 @@
 - Remember to update versions in vars.tf
 - Packer script in this demo fails similarly to previous demo. Need to go back and solve.
 
+## Module Development
+
+### ECS + ALB Module Demo
+- Clone and reference the in4it/terraform-modules repo
+- Update region variables to point to us-west-2
+- Demo requires a certificate and domain (not executing this one as a result)
