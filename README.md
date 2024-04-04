@@ -1,5 +1,6 @@
 # Terraform Coursework
-- Notes and examples from Edward Viaene's course on UDEMY
+This repository contains Terraform module samples and notes from Edward Viaene's Udemy course on Cloud Infrastructure Automation
+
 - Course: https://www.udemy.com/course/learn-devops-infrastructure-automation-with-terraform/learn/lecture/5853788?start=0#overview
 
 ## Terraform Basics
